@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80a4f9beb73d42589e8dd66ee6c64e3b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_80a4f9beb73d42589e8dd66ee6c64e3b" ></div>
+        
+</body>
+<script>    
+    
+            var map_80a4f9beb73d42589e8dd66ee6c64e3b = L.map(
+                "map_80a4f9beb73d42589e8dd66ee6c64e3b",
+                {
+                    center: [40.845743, -73.887836],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c51fc659b08140c9a5f524938b0df4fa = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+            var circle_marker_2c3362f0502642509b7873704650f570 = L.circleMarker(
+                [40.6449815710044, -74.07935312512797],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_3af918fe6fee44e8a862727c7cf51133 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f7b767535b14d5da580a7d50e94466e = $(`<div id="html_0f7b767535b14d5da580a7d50e94466e" style="width: 100.0%; height: 100.0%;">St. George, Staten Island</div>`)[0];
+            popup_3af918fe6fee44e8a862727c7cf51133.setContent(html_0f7b767535b14d5da580a7d50e94466e);
+        
+
+        circle_marker_2c3362f0502642509b7873704650f570.bindPopup(popup_3af918fe6fee44e8a862727c7cf51133)
+        ;
+
+        
+    
+    
+            var circle_marker_2ffffc653bfe471bbf66368fada63505 = L.circleMarker(
+                [40.64061455913511, -74.08701650516625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_ed4101646b0746f9bb6f6a61622ac5aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edcf4395ab584c0489ce041a0916cf42 = $(`<div id="html_edcf4395ab584c0489ce041a0916cf42" style="width: 100.0%; height: 100.0%;">New Brighton, Staten Island</div>`)[0];
+            popup_ed4101646b0746f9bb6f6a61622ac5aa.setContent(html_edcf4395ab584c0489ce041a0916cf42);
+        
+
+        circle_marker_2ffffc653bfe471bbf66368fada63505.bindPopup(popup_ed4101646b0746f9bb6f6a61622ac5aa)
+        ;
+
+        
+    
+    
+            var circle_marker_1a8a6459f5984449a715d2d8e6243dd2 = L.circleMarker(
+                [40.62692762538176, -74.07790192660066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_3da5d29c99af465bb7d9c6e2520ede66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_196bb607708d49e3bf6a266c0afd1f83 = $(`<div id="html_196bb607708d49e3bf6a266c0afd1f83" style="width: 100.0%; height: 100.0%;">Stapleton, Staten Island</div>`)[0];
+            popup_3da5d29c99af465bb7d9c6e2520ede66.setContent(html_196bb607708d49e3bf6a266c0afd1f83);
+        
+
+        circle_marker_1a8a6459f5984449a715d2d8e6243dd2.bindPopup(popup_3da5d29c99af465bb7d9c6e2520ede66)
+        ;
+
+        
+    
+    
+            var circle_marker_f522b52347c04c6080f791eb274fcae4 = L.circleMarker(
+                [40.61530494652761, -74.06980526716141],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_4aa9878154be4ab98b322bad1a330bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_902fcd3981e54e63b7060c928c9581e3 = $(`<div id="html_902fcd3981e54e63b7060c928c9581e3" style="width: 100.0%; height: 100.0%;">Rosebank, Staten Island</div>`)[0];
+            popup_4aa9878154be4ab98b322bad1a330bf1.setContent(html_902fcd3981e54e63b7060c928c9581e3);
+        
+
+        circle_marker_f522b52347c04c6080f791eb274fcae4.bindPopup(popup_4aa9878154be4ab98b322bad1a330bf1)
+        ;
+
+        
+    
+    
+            var circle_marker_0b6305c68409471987543f15689e2125 = L.circleMarker(
+                [40.63187892654607, -74.1071817826561],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_7114f9e6217f4820be8e87da667cff6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2c54d29ad4943b99266e4986c20542b = $(`<div id="html_e2c54d29ad4943b99266e4986c20542b" style="width: 100.0%; height: 100.0%;">West Brighton, Staten Island</div>`)[0];
+            popup_7114f9e6217f4820be8e87da667cff6c.setContent(html_e2c54d29ad4943b99266e4986c20542b);
+        
+
+        circle_marker_0b6305c68409471987543f15689e2125.bindPopup(popup_7114f9e6217f4820be8e87da667cff6c)
+        ;
+
+        
+    
+    
+            var circle_marker_ef7a16719a1c4d05a80059eafbfdf7c9 = L.circleMarker(
+                [40.624184791313006, -74.08724819983729],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_11ff68b25fad42d5b9de607d28677bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d03cffcc5e53407e81f0305f1becb938 = $(`<div id="html_d03cffcc5e53407e81f0305f1becb938" style="width: 100.0%; height: 100.0%;">Grymes Hill, Staten Island</div>`)[0];
+            popup_11ff68b25fad42d5b9de607d28677bda.setContent(html_d03cffcc5e53407e81f0305f1becb938);
+        
+
+        circle_marker_ef7a16719a1c4d05a80059eafbfdf7c9.bindPopup(popup_11ff68b25fad42d5b9de607d28677bda)
+        ;
+
+        
+    
+    
+            var circle_marker_737120f72c524993836b7e7aead4f2ee = L.circleMarker(
+                [40.59706851814673, -74.1113288180088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_6e1ca95f7f65450e99ce45b2d85ff89e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68a0b81113964ce28ac82e7cb1f14220 = $(`<div id="html_68a0b81113964ce28ac82e7cb1f14220" style="width: 100.0%; height: 100.0%;">Todt Hill, Staten Island</div>`)[0];
+            popup_6e1ca95f7f65450e99ce45b2d85ff89e.setContent(html_68a0b81113964ce28ac82e7cb1f14220);
+        
+
+        circle_marker_737120f72c524993836b7e7aead4f2ee.bindPopup(popup_6e1ca95f7f65450e99ce45b2d85ff89e)
+        ;
+
+        
+    
+    
+            var circle_marker_81f624d047a849dc866e698ad1e5da31 = L.circleMarker(
+                [40.58024741350956, -74.0795529253982],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_37d995eadc16498e8ddcfe63233f7670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abb0a1d5e2004cd1b3839859094300f3 = $(`<div id="html_abb0a1d5e2004cd1b3839859094300f3" style="width: 100.0%; height: 100.0%;">South Beach, Staten Island</div>`)[0];
+            popup_37d995eadc16498e8ddcfe63233f7670.setContent(html_abb0a1d5e2004cd1b3839859094300f3);
+        
+
+        circle_marker_81f624d047a849dc866e698ad1e5da31.bindPopup(popup_37d995eadc16498e8ddcfe63233f7670)
+        ;
+
+        
+    
+    
+            var circle_marker_5be05c885ee64941b4589384a5067c93 = L.circleMarker(
+                [40.63366930554365, -74.12943426797008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_d3e09185f53a4327ab90184feb80a0cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60e0809873844bdbbc829a6d066cd7ae = $(`<div id="html_60e0809873844bdbbc829a6d066cd7ae" style="width: 100.0%; height: 100.0%;">Port Richmond, Staten Island</div>`)[0];
+            popup_d3e09185f53a4327ab90184feb80a0cf.setContent(html_60e0809873844bdbbc829a6d066cd7ae);
+        
+
+        circle_marker_5be05c885ee64941b4589384a5067c93.bindPopup(popup_d3e09185f53a4327ab90184feb80a0cf)
+        ;
+
+        
+    
+    
+            var circle_marker_0d2aaab9147840fd9296533dec6aee45 = L.circleMarker(
+                [40.632546390481124, -74.15008537046981],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_2a86aa06b64d4311a177d05f44f1ef2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af7cd4206ccc43bba8278574043c337b = $(`<div id="html_af7cd4206ccc43bba8278574043c337b" style="width: 100.0%; height: 100.0%;">Mariner&#39;s Harbor, Staten Island</div>`)[0];
+            popup_2a86aa06b64d4311a177d05f44f1ef2f.setContent(html_af7cd4206ccc43bba8278574043c337b);
+        
+
+        circle_marker_0d2aaab9147840fd9296533dec6aee45.bindPopup(popup_2a86aa06b64d4311a177d05f44f1ef2f)
+        ;
+
+        
+    
+    
+            var circle_marker_f0234e6c2efb4158b406280c99dd8d3d = L.circleMarker(
+                [40.63968297845542, -74.17464532993542],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_0ba9b298dab34e6abace084d9eab49d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d13e47afe2614278b7554d1570723a24 = $(`<div id="html_d13e47afe2614278b7554d1570723a24" style="width: 100.0%; height: 100.0%;">Port Ivory, Staten Island</div>`)[0];
+            popup_0ba9b298dab34e6abace084d9eab49d5.setContent(html_d13e47afe2614278b7554d1570723a24);
+        
+
+        circle_marker_f0234e6c2efb4158b406280c99dd8d3d.bindPopup(popup_0ba9b298dab34e6abace084d9eab49d5)
+        ;
+
+        
+    
+    
+            var circle_marker_b9498d2f56e744129c5abf52cd3a398b = L.circleMarker(
+                [40.61333593766742, -74.11918058534842],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_a5be3e8b59c24edbac7323c3d2369845 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd8a64dc28da4dbd842adf3137847210 = $(`<div id="html_fd8a64dc28da4dbd842adf3137847210" style="width: 100.0%; height: 100.0%;">Castleton Corners, Staten Island</div>`)[0];
+            popup_a5be3e8b59c24edbac7323c3d2369845.setContent(html_fd8a64dc28da4dbd842adf3137847210);
+        
+
+        circle_marker_b9498d2f56e744129c5abf52cd3a398b.bindPopup(popup_a5be3e8b59c24edbac7323c3d2369845)
+        ;
+
+        
+    
+    
+            var circle_marker_cc53fb76ae1f4ef28e9aedce02a28ecf = L.circleMarker(
+                [40.594252379161695, -74.16496031329827],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_782743ded9794679840a151eb1992907 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1eca931a6c844d9a88ad9b31fe0b172 = $(`<div id="html_d1eca931a6c844d9a88ad9b31fe0b172" style="width: 100.0%; height: 100.0%;">New Springville, Staten Island</div>`)[0];
+            popup_782743ded9794679840a151eb1992907.setContent(html_d1eca931a6c844d9a88ad9b31fe0b172);
+        
+
+        circle_marker_cc53fb76ae1f4ef28e9aedce02a28ecf.bindPopup(popup_782743ded9794679840a151eb1992907)
+        ;
+
+        
+    
+    
+            var circle_marker_5663a93f35834160800afbada1acae84 = L.circleMarker(
+                [40.58631375103281, -74.19073717538116],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_3fa0eaefc65f4198b0be769243b72f36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42f828ab34734f83a0e154dcd54c628f = $(`<div id="html_42f828ab34734f83a0e154dcd54c628f" style="width: 100.0%; height: 100.0%;">Travis, Staten Island</div>`)[0];
+            popup_3fa0eaefc65f4198b0be769243b72f36.setContent(html_42f828ab34734f83a0e154dcd54c628f);
+        
+
+        circle_marker_5663a93f35834160800afbada1acae84.bindPopup(popup_3fa0eaefc65f4198b0be769243b72f36)
+        ;
+
+        
+    
+    
+            var circle_marker_8895e97537ba497d98a834df065a97d9 = L.circleMarker(
+                [40.57257231820632, -74.1164794360638],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_6d5283223de840bd9c92bb0cfab7614f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d6ab2c396824f479e07998638db02a7 = $(`<div id="html_0d6ab2c396824f479e07998638db02a7" style="width: 100.0%; height: 100.0%;">New Dorp, Staten Island</div>`)[0];
+            popup_6d5283223de840bd9c92bb0cfab7614f.setContent(html_0d6ab2c396824f479e07998638db02a7);
+        
+
+        circle_marker_8895e97537ba497d98a834df065a97d9.bindPopup(popup_6d5283223de840bd9c92bb0cfab7614f)
+        ;
+
+        
+    
+    
+            var circle_marker_061b73e292bb4f9a91fb6454b451c9f2 = L.circleMarker(
+                [40.5584622432888, -74.12156593771896],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_c13cbd91c4d14dc1bb232ee4def524fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee794eba71b04e3d9fd7a6865ab6bd93 = $(`<div id="html_ee794eba71b04e3d9fd7a6865ab6bd93" style="width: 100.0%; height: 100.0%;">Oakwood, Staten Island</div>`)[0];
+            popup_c13cbd91c4d14dc1bb232ee4def524fd.setContent(html_ee794eba71b04e3d9fd7a6865ab6bd93);
+        
+
+        circle_marker_061b73e292bb4f9a91fb6454b451c9f2.bindPopup(popup_c13cbd91c4d14dc1bb232ee4def524fd)
+        ;
+
+        
+    
+    
+            var circle_marker_201f02830e7941d7a56039d9840ff8fb = L.circleMarker(
+                [40.549480228713605, -74.14932381490992],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_7b9f609fa23c4c01b66e2f52a180eed2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0507638e83149c988632058ae2cc300 = $(`<div id="html_d0507638e83149c988632058ae2cc300" style="width: 100.0%; height: 100.0%;">Great Kills, Staten Island</div>`)[0];
+            popup_7b9f609fa23c4c01b66e2f52a180eed2.setContent(html_d0507638e83149c988632058ae2cc300);
+        
+
+        circle_marker_201f02830e7941d7a56039d9840ff8fb.bindPopup(popup_7b9f609fa23c4c01b66e2f52a180eed2)
+        ;
+
+        
+    
+    
+            var circle_marker_e405127836d34d009849b12aac019bb8 = L.circleMarker(
+                [40.542230747450745, -74.1643308041936],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_73fcafa5463e4557bb8b004621de2169 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b371f164c6249f0bc6f829ba7ef1046 = $(`<div id="html_1b371f164c6249f0bc6f829ba7ef1046" style="width: 100.0%; height: 100.0%;">Eltingville, Staten Island</div>`)[0];
+            popup_73fcafa5463e4557bb8b004621de2169.setContent(html_1b371f164c6249f0bc6f829ba7ef1046);
+        
+
+        circle_marker_e405127836d34d009849b12aac019bb8.bindPopup(popup_73fcafa5463e4557bb8b004621de2169)
+        ;
+
+        
+    
+    
+            var circle_marker_ec1c117584e648b5b6f4d8ddb5f1ec08 = L.circleMarker(
+                [40.53811417474507, -74.17854866165878],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_84b59750896e40f2b71246609ad21db0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d64ddc853f64b09b79bb6ba3e0c7bb1 = $(`<div id="html_1d64ddc853f64b09b79bb6ba3e0c7bb1" style="width: 100.0%; height: 100.0%;">Annadale, Staten Island</div>`)[0];
+            popup_84b59750896e40f2b71246609ad21db0.setContent(html_1d64ddc853f64b09b79bb6ba3e0c7bb1);
+        
+
+        circle_marker_ec1c117584e648b5b6f4d8ddb5f1ec08.bindPopup(popup_84b59750896e40f2b71246609ad21db0)
+        ;
+
+        
+    
+    
+            var circle_marker_2dea44975db84ff9823185996a6eeaa4 = L.circleMarker(
+                [40.541967622888755, -74.20524582480326],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_3fba081e31894f5986b44263d86f43e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36fdadcb3212457d844531eb3e5019d3 = $(`<div id="html_36fdadcb3212457d844531eb3e5019d3" style="width: 100.0%; height: 100.0%;">Woodrow, Staten Island</div>`)[0];
+            popup_3fba081e31894f5986b44263d86f43e3.setContent(html_36fdadcb3212457d844531eb3e5019d3);
+        
+
+        circle_marker_2dea44975db84ff9823185996a6eeaa4.bindPopup(popup_3fba081e31894f5986b44263d86f43e3)
+        ;
+
+        
+    
+    
+            var circle_marker_a3828c01474b4bf5ba346cfcac570325 = L.circleMarker(
+                [40.50533376115642, -74.24656934235283],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_bfc9a43f903b46f396bee1c8559d29ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd592b89d4d74f91b970d82053647ae5 = $(`<div id="html_bd592b89d4d74f91b970d82053647ae5" style="width: 100.0%; height: 100.0%;">Tottenville, Staten Island</div>`)[0];
+            popup_bfc9a43f903b46f396bee1c8559d29ae.setContent(html_bd592b89d4d74f91b970d82053647ae5);
+        
+
+        circle_marker_a3828c01474b4bf5ba346cfcac570325.bindPopup(popup_bfc9a43f903b46f396bee1c8559d29ae)
+        ;
+
+        
+    
+    
+            var circle_marker_0aab04ee01c5497891223b6ff3ea4ef9 = L.circleMarker(
+                [40.637316067110326, -74.08055351790115],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_2a36f07a32044c8fa733b69cb70c00ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8efbc09f27e64a3695605bfd1fea4b44 = $(`<div id="html_8efbc09f27e64a3695605bfd1fea4b44" style="width: 100.0%; height: 100.0%;">Tompkinsville, Staten Island</div>`)[0];
+            popup_2a36f07a32044c8fa733b69cb70c00ea.setContent(html_8efbc09f27e64a3695605bfd1fea4b44);
+        
+
+        circle_marker_0aab04ee01c5497891223b6ff3ea4ef9.bindPopup(popup_2a36f07a32044c8fa733b69cb70c00ea)
+        ;
+
+        
+    
+    
+            var circle_marker_721b249fd6c54dab8fdfcfd34dad37ec = L.circleMarker(
+                [40.61919310792676, -74.09629029235458],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_a6656913375346c7b4b4115f03529cea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9105bde46f84493390df5486e1f8473e = $(`<div id="html_9105bde46f84493390df5486e1f8473e" style="width: 100.0%; height: 100.0%;">Silver Lake, Staten Island</div>`)[0];
+            popup_a6656913375346c7b4b4115f03529cea.setContent(html_9105bde46f84493390df5486e1f8473e);
+        
+
+        circle_marker_721b249fd6c54dab8fdfcfd34dad37ec.bindPopup(popup_a6656913375346c7b4b4115f03529cea)
+        ;
+
+        
+    
+    
+            var circle_marker_632c7b576e8845c795ebd734e794da90 = L.circleMarker(
+                [40.61276015756489, -74.0971255217853],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_c1fe1de3bcdf45ac88d79443083e2309 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6df1a32548fe4aff97b4b560b16677da = $(`<div id="html_6df1a32548fe4aff97b4b560b16677da" style="width: 100.0%; height: 100.0%;">Sunnyside, Staten Island</div>`)[0];
+            popup_c1fe1de3bcdf45ac88d79443083e2309.setContent(html_6df1a32548fe4aff97b4b560b16677da);
+        
+
+        circle_marker_632c7b576e8845c795ebd734e794da90.bindPopup(popup_c1fe1de3bcdf45ac88d79443083e2309)
+        ;
+
+        
+    
+    
+            var circle_marker_94d643e9574440e78a80ade3f7015434 = L.circleMarker(
+                [40.60919044434558, -74.08015734936296],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_e17faf7e441f42edad75bcbbedda87ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a5202635b8346bdbefeb6249031b1c6 = $(`<div id="html_9a5202635b8346bdbefeb6249031b1c6" style="width: 100.0%; height: 100.0%;">Park Hill, Staten Island</div>`)[0];
+            popup_e17faf7e441f42edad75bcbbedda87ac.setContent(html_9a5202635b8346bdbefeb6249031b1c6);
+        
+
+        circle_marker_94d643e9574440e78a80ade3f7015434.bindPopup(popup_e17faf7e441f42edad75bcbbedda87ac)
+        ;
+
+        
+    
+    
+            var circle_marker_6c985c90e69841f38daf4c14c1d3cf36 = L.circleMarker(
+                [40.62109047275409, -74.13304143951704],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_6e9edb44e1b24f97a4ff679a30bd3e16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65b0dfcb7e794f2092d2f5ecc05c5ef9 = $(`<div id="html_65b0dfcb7e794f2092d2f5ecc05c5ef9" style="width: 100.0%; height: 100.0%;">Westerleigh, Staten Island</div>`)[0];
+            popup_6e9edb44e1b24f97a4ff679a30bd3e16.setContent(html_65b0dfcb7e794f2092d2f5ecc05c5ef9);
+        
+
+        circle_marker_6c985c90e69841f38daf4c14c1d3cf36.bindPopup(popup_6e9edb44e1b24f97a4ff679a30bd3e16)
+        ;
+
+        
+    
+    
+            var circle_marker_38b539a82f024d33b480d5276f542442 = L.circleMarker(
+                [40.620171512231884, -74.15315246387762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_531e6a3489d0456da067c577105242b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0174d4a1a4894eb39fec3d3668ab3967 = $(`<div id="html_0174d4a1a4894eb39fec3d3668ab3967" style="width: 100.0%; height: 100.0%;">Graniteville, Staten Island</div>`)[0];
+            popup_531e6a3489d0456da067c577105242b1.setContent(html_0174d4a1a4894eb39fec3d3668ab3967);
+        
+
+        circle_marker_38b539a82f024d33b480d5276f542442.bindPopup(popup_531e6a3489d0456da067c577105242b1)
+        ;
+
+        
+    
+    
+            var circle_marker_9a83e43303fd43e5ba31b14aaaf34288 = L.circleMarker(
+                [40.63532509911492, -74.16510420241124],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_5079853adc1347d084506e02259fa7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7f4c8ada345445782176bbf973fd71f = $(`<div id="html_c7f4c8ada345445782176bbf973fd71f" style="width: 100.0%; height: 100.0%;">Arlington, Staten Island</div>`)[0];
+            popup_5079853adc1347d084506e02259fa7d8.setContent(html_c7f4c8ada345445782176bbf973fd71f);
+        
+
+        circle_marker_9a83e43303fd43e5ba31b14aaaf34288.bindPopup(popup_5079853adc1347d084506e02259fa7d8)
+        ;
+
+        
+    
+    
+            var circle_marker_654e14c13d6d496e9c1e3450e8a1da60 = L.circleMarker(
+                [40.596312571276734, -74.06712363225574],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_151cde38d97b4fdfaf195b985f089aff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbb4dd675d8e4d8a81437439730e6fc5 = $(`<div id="html_fbb4dd675d8e4d8a81437439730e6fc5" style="width: 100.0%; height: 100.0%;">Arrochar, Staten Island</div>`)[0];
+            popup_151cde38d97b4fdfaf195b985f089aff.setContent(html_fbb4dd675d8e4d8a81437439730e6fc5);
+        
+
+        circle_marker_654e14c13d6d496e9c1e3450e8a1da60.bindPopup(popup_151cde38d97b4fdfaf195b985f089aff)
+        ;
+
+        
+    
+    
+            var circle_marker_0596478950564f679c1b4b1a213ccae0 = L.circleMarker(
+                [40.59826835959991, -74.0766743627905],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_046ec07adc03443696a88645a028110d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da932a673c534595853d264c26d33b88 = $(`<div id="html_da932a673c534595853d264c26d33b88" style="width: 100.0%; height: 100.0%;">Grasmere, Staten Island</div>`)[0];
+            popup_046ec07adc03443696a88645a028110d.setContent(html_da932a673c534595853d264c26d33b88);
+        
+
+        circle_marker_0596478950564f679c1b4b1a213ccae0.bindPopup(popup_046ec07adc03443696a88645a028110d)
+        ;
+
+        
+    
+    
+            var circle_marker_50240956250d4ea6b834379db2ed185f = L.circleMarker(
+                [40.59632891379513, -74.08751118005578],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_53bf87904aa14ca9aa2b31ea177717a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e09f5b258e244b3dafc654eaead34c4d = $(`<div id="html_e09f5b258e244b3dafc654eaead34c4d" style="width: 100.0%; height: 100.0%;">Old Town, Staten Island</div>`)[0];
+            popup_53bf87904aa14ca9aa2b31ea177717a1.setContent(html_e09f5b258e244b3dafc654eaead34c4d);
+        
+
+        circle_marker_50240956250d4ea6b834379db2ed185f.bindPopup(popup_53bf87904aa14ca9aa2b31ea177717a1)
+        ;
+
+        
+    
+    
+            var circle_marker_d5f67609854d4177b4596579289831a6 = L.circleMarker(
+                [40.588672948199275, -74.09639905312521],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_ab8a8431ae12479baaf909f62c02e88f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f5e16760473477d9c5647bec433e892 = $(`<div id="html_7f5e16760473477d9c5647bec433e892" style="width: 100.0%; height: 100.0%;">Dongan Hills, Staten Island</div>`)[0];
+            popup_ab8a8431ae12479baaf909f62c02e88f.setContent(html_7f5e16760473477d9c5647bec433e892);
+        
+
+        circle_marker_d5f67609854d4177b4596579289831a6.bindPopup(popup_ab8a8431ae12479baaf909f62c02e88f)
+        ;
+
+        
+    
+    
+            var circle_marker_2ac50fad23c54008822edcfbf600a21b = L.circleMarker(
+                [40.57352690574283, -74.09348266303591],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_b52d5fcb32fd4afe806508f4a14d430b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b00bdc496aa47a59808ee1537caa97e = $(`<div id="html_8b00bdc496aa47a59808ee1537caa97e" style="width: 100.0%; height: 100.0%;">Midland Beach, Staten Island</div>`)[0];
+            popup_b52d5fcb32fd4afe806508f4a14d430b.setContent(html_8b00bdc496aa47a59808ee1537caa97e);
+        
+
+        circle_marker_2ac50fad23c54008822edcfbf600a21b.bindPopup(popup_b52d5fcb32fd4afe806508f4a14d430b)
+        ;
+
+        
+    
+    
+            var circle_marker_793c3d41b19a4ffeb727244705535bf0 = L.circleMarker(
+                [40.57621558711788, -74.10585598545434],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_e4dafadf7ea043e88c5949b7207715ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_780c1dd8fc714ae3bd443ddd70c6e8cf = $(`<div id="html_780c1dd8fc714ae3bd443ddd70c6e8cf" style="width: 100.0%; height: 100.0%;">Grant City, Staten Island</div>`)[0];
+            popup_e4dafadf7ea043e88c5949b7207715ff.setContent(html_780c1dd8fc714ae3bd443ddd70c6e8cf);
+        
+
+        circle_marker_793c3d41b19a4ffeb727244705535bf0.bindPopup(popup_e4dafadf7ea043e88c5949b7207715ff)
+        ;
+
+        
+    
+    
+            var circle_marker_716dd897c4ad4b58b813aad079051074 = L.circleMarker(
+                [40.56425549307335, -74.10432707469124],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_891734c5cb774906be20afda8d154a49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_943f282944884141baea9f7c1fac3212 = $(`<div id="html_943f282944884141baea9f7c1fac3212" style="width: 100.0%; height: 100.0%;">New Dorp Beach, Staten Island</div>`)[0];
+            popup_891734c5cb774906be20afda8d154a49.setContent(html_943f282944884141baea9f7c1fac3212);
+        
+
+        circle_marker_716dd897c4ad4b58b813aad079051074.bindPopup(popup_891734c5cb774906be20afda8d154a49)
+        ;
+
+        
+    
+    
+            var circle_marker_11225e8ae27f48b9b01ce3ed8a0fef5c = L.circleMarker(
+                [40.55398800858462, -74.13916622175768],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_2f6da5ecf2944195ac9e6c0e79184af6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b159944bce04e0685a19b7bd0c0b204 = $(`<div id="html_5b159944bce04e0685a19b7bd0c0b204" style="width: 100.0%; height: 100.0%;">Bay Terrace, Staten Island</div>`)[0];
+            popup_2f6da5ecf2944195ac9e6c0e79184af6.setContent(html_5b159944bce04e0685a19b7bd0c0b204);
+        
+
+        circle_marker_11225e8ae27f48b9b01ce3ed8a0fef5c.bindPopup(popup_2f6da5ecf2944195ac9e6c0e79184af6)
+        ;
+
+        
+    
+    
+            var circle_marker_b3e8cc94735a4b29aaecafe8ae2f65dc = L.circleMarker(
+                [40.531911920489605, -74.19174105747814],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_a0ce3fa720424a4ba052d180d016dada = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ffb5e487422414296992ebd29c47ca0 = $(`<div id="html_4ffb5e487422414296992ebd29c47ca0" style="width: 100.0%; height: 100.0%;">Huguenot, Staten Island</div>`)[0];
+            popup_a0ce3fa720424a4ba052d180d016dada.setContent(html_4ffb5e487422414296992ebd29c47ca0);
+        
+
+        circle_marker_b3e8cc94735a4b29aaecafe8ae2f65dc.bindPopup(popup_a0ce3fa720424a4ba052d180d016dada)
+        ;
+
+        
+    
+    
+            var circle_marker_5a6bf6f9ba0948d5a2b9d6aab6e69855 = L.circleMarker(
+                [40.524699376118136, -74.21983106616777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_340a4d8988d542f282ec36c2b287a4cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10f3dee267de42f7bbf23b5544271b05 = $(`<div id="html_10f3dee267de42f7bbf23b5544271b05" style="width: 100.0%; height: 100.0%;">Pleasant Plains, Staten Island</div>`)[0];
+            popup_340a4d8988d542f282ec36c2b287a4cc.setContent(html_10f3dee267de42f7bbf23b5544271b05);
+        
+
+        circle_marker_5a6bf6f9ba0948d5a2b9d6aab6e69855.bindPopup(popup_340a4d8988d542f282ec36c2b287a4cc)
+        ;
+
+        
+    
+    
+            var circle_marker_8d8ce628b2bd4474a1b707177be78d36 = L.circleMarker(
+                [40.50608165346305, -74.22950350260027],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_7da6043bfe714b38a8e0b11d59ea5813 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bf444fa5f434c5e9e948e1f8ede99f3 = $(`<div id="html_6bf444fa5f434c5e9e948e1f8ede99f3" style="width: 100.0%; height: 100.0%;">Butler Manor, Staten Island</div>`)[0];
+            popup_7da6043bfe714b38a8e0b11d59ea5813.setContent(html_6bf444fa5f434c5e9e948e1f8ede99f3);
+        
+
+        circle_marker_8d8ce628b2bd4474a1b707177be78d36.bindPopup(popup_7da6043bfe714b38a8e0b11d59ea5813)
+        ;
+
+        
+    
+    
+            var circle_marker_f6746734bcc54212a868e3fada6c9d72 = L.circleMarker(
+                [40.53053148283314, -74.23215775896526],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_5870202a8f604699a7cb379c49736da7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21db6cbd550c4a768c0cc77d404bcb19 = $(`<div id="html_21db6cbd550c4a768c0cc77d404bcb19" style="width: 100.0%; height: 100.0%;">Charleston, Staten Island</div>`)[0];
+            popup_5870202a8f604699a7cb379c49736da7.setContent(html_21db6cbd550c4a768c0cc77d404bcb19);
+        
+
+        circle_marker_f6746734bcc54212a868e3fada6c9d72.bindPopup(popup_5870202a8f604699a7cb379c49736da7)
+        ;
+
+        
+    
+    
+            var circle_marker_4b908058b1b740289b43a737e260c97b = L.circleMarker(
+                [40.54940400650072, -74.21572851113952],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_184b3a24f51244c289c749d0a57aaa61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_031cbf62a1af4237ba6996e12bcb8f60 = $(`<div id="html_031cbf62a1af4237ba6996e12bcb8f60" style="width: 100.0%; height: 100.0%;">Rossville, Staten Island</div>`)[0];
+            popup_184b3a24f51244c289c749d0a57aaa61.setContent(html_031cbf62a1af4237ba6996e12bcb8f60);
+        
+
+        circle_marker_4b908058b1b740289b43a737e260c97b.bindPopup(popup_184b3a24f51244c289c749d0a57aaa61)
+        ;
+
+        
+    
+    
+            var circle_marker_9ea6dbbec20642ac94cf3d4698df1c32 = L.circleMarker(
+                [40.54928582278321, -74.18588674583893],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_a677e19d50794fac89e6d9d51faf346e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ca8fef6653c482b8df6353bf7b46486 = $(`<div id="html_7ca8fef6653c482b8df6353bf7b46486" style="width: 100.0%; height: 100.0%;">Arden Heights, Staten Island</div>`)[0];
+            popup_a677e19d50794fac89e6d9d51faf346e.setContent(html_7ca8fef6653c482b8df6353bf7b46486);
+        
+
+        circle_marker_9ea6dbbec20642ac94cf3d4698df1c32.bindPopup(popup_a677e19d50794fac89e6d9d51faf346e)
+        ;
+
+        
+    
+    
+            var circle_marker_344d8811d73b4e0ca2702b643465c57b = L.circleMarker(
+                [40.555295236173194, -74.17079414786092],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_8417306e5f294e6d937b2e0a27d2bcfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c0fcdf3f62f422782cb00db2e2e9a19 = $(`<div id="html_7c0fcdf3f62f422782cb00db2e2e9a19" style="width: 100.0%; height: 100.0%;">Greenridge, Staten Island</div>`)[0];
+            popup_8417306e5f294e6d937b2e0a27d2bcfe.setContent(html_7c0fcdf3f62f422782cb00db2e2e9a19);
+        
+
+        circle_marker_344d8811d73b4e0ca2702b643465c57b.bindPopup(popup_8417306e5f294e6d937b2e0a27d2bcfe)
+        ;
+
+        
+    
+    
+            var circle_marker_bdd91468383c4414b5cbcd3a77069d55 = L.circleMarker(
+                [40.58913894875281, -74.15902208156601],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_1ab6aaa931434824888690b172dc2958 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d69585934c1147cfad4220fc86ff82b5 = $(`<div id="html_d69585934c1147cfad4220fc86ff82b5" style="width: 100.0%; height: 100.0%;">Heartland Village, Staten Island</div>`)[0];
+            popup_1ab6aaa931434824888690b172dc2958.setContent(html_d69585934c1147cfad4220fc86ff82b5);
+        
+
+        circle_marker_bdd91468383c4414b5cbcd3a77069d55.bindPopup(popup_1ab6aaa931434824888690b172dc2958)
+        ;
+
+        
+    
+    
+            var circle_marker_c77e2881b0034bc48082a440073e9b6a = L.circleMarker(
+                [40.59472602746295, -74.1895604551969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_ae248581a68d4e99aaaadc97f725ad8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a076bab66c7428aa8a4c9271af78e88 = $(`<div id="html_5a076bab66c7428aa8a4c9271af78e88" style="width: 100.0%; height: 100.0%;">Chelsea, Staten Island</div>`)[0];
+            popup_ae248581a68d4e99aaaadc97f725ad8e.setContent(html_5a076bab66c7428aa8a4c9271af78e88);
+        
+
+        circle_marker_c77e2881b0034bc48082a440073e9b6a.bindPopup(popup_ae248581a68d4e99aaaadc97f725ad8e)
+        ;
+
+        
+    
+    
+            var circle_marker_591e1cb18d064ffdb21b2742a1590408 = L.circleMarker(
+                [40.60577868452358, -74.18725638381567],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_b1453a86c2db4d47960923a530406753 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45b52f7b097f449496bc07d994735a61 = $(`<div id="html_45b52f7b097f449496bc07d994735a61" style="width: 100.0%; height: 100.0%;">Bloomfield, Staten Island</div>`)[0];
+            popup_b1453a86c2db4d47960923a530406753.setContent(html_45b52f7b097f449496bc07d994735a61);
+        
+
+        circle_marker_591e1cb18d064ffdb21b2742a1590408.bindPopup(popup_b1453a86c2db4d47960923a530406753)
+        ;
+
+        
+    
+    
+            var circle_marker_4a952a7c47bd4f4b8a7ae8b202af6030 = L.circleMarker(
+                [40.6095918004203, -74.15940948657122],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_51601908fbc84592b82cc71e0e51ee43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33d64e1cb957425e942ecbf64d393135 = $(`<div id="html_33d64e1cb957425e942ecbf64d393135" style="width: 100.0%; height: 100.0%;">Bulls Head, Staten Island</div>`)[0];
+            popup_51601908fbc84592b82cc71e0e51ee43.setContent(html_33d64e1cb957425e942ecbf64d393135);
+        
+
+        circle_marker_4a952a7c47bd4f4b8a7ae8b202af6030.bindPopup(popup_51601908fbc84592b82cc71e0e51ee43)
+        ;
+
+        
+    
+    
+            var circle_marker_756cf5d206cb4337811d6479283cb768 = L.circleMarker(
+                [40.56960594275505, -74.1340572986257],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_69d5c5f7795341f58e2bcc2dd9d873ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37bec826284d464aa12b1d001a6781bc = $(`<div id="html_37bec826284d464aa12b1d001a6781bc" style="width: 100.0%; height: 100.0%;">Richmond Town, Staten Island</div>`)[0];
+            popup_69d5c5f7795341f58e2bcc2dd9d873ae.setContent(html_37bec826284d464aa12b1d001a6781bc);
+        
+
+        circle_marker_756cf5d206cb4337811d6479283cb768.bindPopup(popup_69d5c5f7795341f58e2bcc2dd9d873ae)
+        ;
+
+        
+    
+    
+            var circle_marker_52713cc495124da8b010a1c2da6a8d8e = L.circleMarker(
+                [40.60971934079284, -74.06667766061771],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_4e72706aed6a48b69f8f9d84790ce0ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaed16b4c55744c4b21c6f4943d28346 = $(`<div id="html_aaed16b4c55744c4b21c6f4943d28346" style="width: 100.0%; height: 100.0%;">Shore Acres, Staten Island</div>`)[0];
+            popup_4e72706aed6a48b69f8f9d84790ce0ef.setContent(html_aaed16b4c55744c4b21c6f4943d28346);
+        
+
+        circle_marker_52713cc495124da8b010a1c2da6a8d8e.bindPopup(popup_4e72706aed6a48b69f8f9d84790ce0ef)
+        ;
+
+        
+    
+    
+            var circle_marker_d23164b1e0ee447fa8aa1a48a934e94e = L.circleMarker(
+                [40.61917845202843, -74.072642445484],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_3b93d4369d3b48d4b36debfbd60a2b31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_111db5148ea5490e9b9d07ebf7a3a9d7 = $(`<div id="html_111db5148ea5490e9b9d07ebf7a3a9d7" style="width: 100.0%; height: 100.0%;">Clifton, Staten Island</div>`)[0];
+            popup_3b93d4369d3b48d4b36debfbd60a2b31.setContent(html_111db5148ea5490e9b9d07ebf7a3a9d7);
+        
+
+        circle_marker_d23164b1e0ee447fa8aa1a48a934e94e.bindPopup(popup_3b93d4369d3b48d4b36debfbd60a2b31)
+        ;
+
+        
+    
+    
+            var circle_marker_20e9d4409e3e4fefbf99aa2418511790 = L.circleMarker(
+                [40.6044731896879, -74.08402364740358],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_d90029ab23614ec0b8fe88b0e3fea378 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_861d9e7255814000b7df84df94472e9b = $(`<div id="html_861d9e7255814000b7df84df94472e9b" style="width: 100.0%; height: 100.0%;">Concord, Staten Island</div>`)[0];
+            popup_d90029ab23614ec0b8fe88b0e3fea378.setContent(html_861d9e7255814000b7df84df94472e9b);
+        
+
+        circle_marker_20e9d4409e3e4fefbf99aa2418511790.bindPopup(popup_d90029ab23614ec0b8fe88b0e3fea378)
+        ;
+
+        
+    
+    
+            var circle_marker_4e9c835b321343dfa81964141d9cd681 = L.circleMarker(
+                [40.606794394801, -74.09776206972522],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_9a0f00df17bd4527ade7baadd30ab8ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63253bfa2f1542adb30ac5882fc7d4fd = $(`<div id="html_63253bfa2f1542adb30ac5882fc7d4fd" style="width: 100.0%; height: 100.0%;">Emerson Hill, Staten Island</div>`)[0];
+            popup_9a0f00df17bd4527ade7baadd30ab8ce.setContent(html_63253bfa2f1542adb30ac5882fc7d4fd);
+        
+
+        circle_marker_4e9c835b321343dfa81964141d9cd681.bindPopup(popup_9a0f00df17bd4527ade7baadd30ab8ce)
+        ;
+
+        
+    
+    
+            var circle_marker_09af3a0ef5cb446a8aad1ec08f3391af = L.circleMarker(
+                [40.63563000681151, -74.09805062373887],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_3f3f53806ceb464197b7b74450060ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e2d79bb43024047bb64c04289a153aa = $(`<div id="html_6e2d79bb43024047bb64c04289a153aa" style="width: 100.0%; height: 100.0%;">Randall Manor, Staten Island</div>`)[0];
+            popup_3f3f53806ceb464197b7b74450060ff9.setContent(html_6e2d79bb43024047bb64c04289a153aa);
+        
+
+        circle_marker_09af3a0ef5cb446a8aad1ec08f3391af.bindPopup(popup_3f3f53806ceb464197b7b74450060ff9)
+        ;
+
+        
+    
+    
+            var circle_marker_2b468939ba0b41d6a4b738bbac5a5718 = L.circleMarker(
+                [40.63843283794795, -74.18622331749823],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_7bf1623010664408891b0f622b86073a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fb44ca9406c4d43babbde8c12a0b579 = $(`<div id="html_1fb44ca9406c4d43babbde8c12a0b579" style="width: 100.0%; height: 100.0%;">Howland Hook, Staten Island</div>`)[0];
+            popup_7bf1623010664408891b0f622b86073a.setContent(html_1fb44ca9406c4d43babbde8c12a0b579);
+        
+
+        circle_marker_2b468939ba0b41d6a4b738bbac5a5718.bindPopup(popup_7bf1623010664408891b0f622b86073a)
+        ;
+
+        
+    
+    
+            var circle_marker_87d969ee6aeb4631bc08d19ef7b09ff3 = L.circleMarker(
+                [40.630146741193826, -74.1418167896889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_4bca9cb975074fd482eaff05984246fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6e826b368b243c9a4ce12dc20fb3632 = $(`<div id="html_f6e826b368b243c9a4ce12dc20fb3632" style="width: 100.0%; height: 100.0%;">Elm Park, Staten Island</div>`)[0];
+            popup_4bca9cb975074fd482eaff05984246fe.setContent(html_f6e826b368b243c9a4ce12dc20fb3632);
+        
+
+        circle_marker_87d969ee6aeb4631bc08d19ef7b09ff3.bindPopup(popup_4bca9cb975074fd482eaff05984246fe)
+        ;
+
+        
+    
+    
+            var circle_marker_9d4871086c4844c7b540da64a0b3a5db = L.circleMarker(
+                [40.60180957631444, -74.12059399718001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_7ee08a363e354c74acc73ba0b4c9ebbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4da8ae2b93944d6a5a369d033682577 = $(`<div id="html_a4da8ae2b93944d6a5a369d033682577" style="width: 100.0%; height: 100.0%;">Manor Heights, Staten Island</div>`)[0];
+            popup_7ee08a363e354c74acc73ba0b4c9ebbb.setContent(html_a4da8ae2b93944d6a5a369d033682577);
+        
+
+        circle_marker_9d4871086c4844c7b540da64a0b3a5db.bindPopup(popup_7ee08a363e354c74acc73ba0b4c9ebbb)
+        ;
+
+        
+    
+    
+            var circle_marker_a72ebb8512954d60b879e15bb8c7a019 = L.circleMarker(
+                [40.60370692627371, -74.13208447484298],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_aaf4ebe42c3c42cfb76d466bc4770474 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d8b0f56a5764f14a6556b7dee5b17e9 = $(`<div id="html_7d8b0f56a5764f14a6556b7dee5b17e9" style="width: 100.0%; height: 100.0%;">Willowbrook, Staten Island</div>`)[0];
+            popup_aaf4ebe42c3c42cfb76d466bc4770474.setContent(html_7d8b0f56a5764f14a6556b7dee5b17e9);
+        
+
+        circle_marker_a72ebb8512954d60b879e15bb8c7a019.bindPopup(popup_aaf4ebe42c3c42cfb76d466bc4770474)
+        ;
+
+        
+    
+    
+            var circle_marker_a0d810e257204611a3ffdbef87315a37 = L.circleMarker(
+                [40.541139922091766, -74.21776636068567],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_2a8fe834e5944596bacca10fa480e897 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6a139e6f45346efa451df158a812fb5 = $(`<div id="html_c6a139e6f45346efa451df158a812fb5" style="width: 100.0%; height: 100.0%;">Sandy Ground, Staten Island</div>`)[0];
+            popup_2a8fe834e5944596bacca10fa480e897.setContent(html_c6a139e6f45346efa451df158a812fb5);
+        
+
+        circle_marker_a0d810e257204611a3ffdbef87315a37.bindPopup(popup_2a8fe834e5944596bacca10fa480e897)
+        ;
+
+        
+    
+    
+            var circle_marker_3eb93f4603304e658211905b7993e97d = L.circleMarker(
+                [40.579118742961214, -74.12727240604946],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_f8e06ef120704907a102b52fb7a83d72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a17e436b930b46b2b6f6c42e9c5c18de = $(`<div id="html_a17e436b930b46b2b6f6c42e9c5c18de" style="width: 100.0%; height: 100.0%;">Egbertville, Staten Island</div>`)[0];
+            popup_f8e06ef120704907a102b52fb7a83d72.setContent(html_a17e436b930b46b2b6f6c42e9c5c18de);
+        
+
+        circle_marker_3eb93f4603304e658211905b7993e97d.bindPopup(popup_f8e06ef120704907a102b52fb7a83d72)
+        ;
+
+        
+    
+    
+            var circle_marker_b8b44d581ffb46639702a84388bc832e = L.circleMarker(
+                [40.52626406734812, -74.20152556457658],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_2ba3086007fb458d8dd22ff18881d041 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42b95717426f4418a4fd096335da44ad = $(`<div id="html_42b95717426f4418a4fd096335da44ad" style="width: 100.0%; height: 100.0%;">Prince&#39;s Bay, Staten Island</div>`)[0];
+            popup_2ba3086007fb458d8dd22ff18881d041.setContent(html_42b95717426f4418a4fd096335da44ad);
+        
+
+        circle_marker_b8b44d581ffb46639702a84388bc832e.bindPopup(popup_2ba3086007fb458d8dd22ff18881d041)
+        ;
+
+        
+    
+    
+            var circle_marker_ef0102b1cf8b474aae0dcec05be344ab = L.circleMarker(
+                [40.57650629379489, -74.13792663771568],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_99c0128eeac441028bb0c4186125ae3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09b80fb1781749c0a159bfc0c58b1c95 = $(`<div id="html_09b80fb1781749c0a159bfc0c58b1c95" style="width: 100.0%; height: 100.0%;">Lighthouse Hill, Staten Island</div>`)[0];
+            popup_99c0128eeac441028bb0c4186125ae3c.setContent(html_09b80fb1781749c0a159bfc0c58b1c95);
+        
+
+        circle_marker_ef0102b1cf8b474aae0dcec05be344ab.bindPopup(popup_99c0128eeac441028bb0c4186125ae3c)
+        ;
+
+        
+    
+    
+            var circle_marker_0bdd2ff10ea54cff8a0af06ccb6e4d9f = L.circleMarker(
+                [40.51954145748909, -74.22957080626941],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_468cd35f1212466e8c88ba0aa59f690c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1db38d03a8a04d9886f6317613a98b27 = $(`<div id="html_1db38d03a8a04d9886f6317613a98b27" style="width: 100.0%; height: 100.0%;">Richmond Valley, Staten Island</div>`)[0];
+            popup_468cd35f1212466e8c88ba0aa59f690c.setContent(html_1db38d03a8a04d9886f6317613a98b27);
+        
+
+        circle_marker_0bdd2ff10ea54cff8a0af06ccb6e4d9f.bindPopup(popup_468cd35f1212466e8c88ba0aa59f690c)
+        ;
+
+        
+    
+    
+            var circle_marker_b4a3aea16ea24eec8efffd70598fe70a = L.circleMarker(
+                [40.61731079252983, -74.08173992211962],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_033f739e5c3b4f98b3b4d9a3aee015eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acdb2887f5004c2b9720742a3c6f2a69 = $(`<div id="html_acdb2887f5004c2b9720742a3c6f2a69" style="width: 100.0%; height: 100.0%;">Fox Hills, Staten Island</div>`)[0];
+            popup_033f739e5c3b4f98b3b4d9a3aee015eb.setContent(html_acdb2887f5004c2b9720742a3c6f2a69);
+        
+
+        circle_marker_b4a3aea16ea24eec8efffd70598fe70a.bindPopup(popup_033f739e5c3b4f98b3b4d9a3aee015eb)
+        ;
+
+        
+    
+    
+            var circle_marker_8debfbf717b842f5888d633b6cf2ed51 = L.circleMarker(
+                [40.845743, -73.887836],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_80a4f9beb73d42589e8dd66ee6c64e3b);
+        
+    
+        var popup_a879b9f7f78d4f61ba3e7342a19bb85a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdf717fd339641b2b88e53146bcf2afc = $(`<div id="html_fdf717fd339641b2b88e53146bcf2afc" style="width: 100.0%; height: 100.0%;">Belmont, Bronx</div>`)[0];
+            popup_a879b9f7f78d4f61ba3e7342a19bb85a.setContent(html_fdf717fd339641b2b88e53146bcf2afc);
+        
+
+        circle_marker_8debfbf717b842f5888d633b6cf2ed51.bindPopup(popup_a879b9f7f78d4f61ba3e7342a19bb85a)
+        ;
+
+        
+    
+</script>
